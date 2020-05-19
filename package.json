@@ -1,0 +1,28 @@
+{
+  "name": "fai-template-faicomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "fai test && fai build -e prod"
+  },
+  "author": {
+    "name": "Houfeng",
+    "email": "admin@xhou.net",
+    "url": "http://houfeng.net"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@faiflow/middleware-browser-sync": "^1.0.0",
+    "@faiflow/middleware-clean": "^1.0.0",
+    "@faiflow/middleware-pkginfo": "^1.0.0",
+    "@faiflow/middleware-server": "^1.0.0",
+    "@faiflow/middleware-webpack": "^1.0.0",
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0"
+  },
+  "gitHead": "7f6027d0de35f7a39e0a41ae54973d9b228c3f54",
+  "dependencies": {
+    "@fk/faicomponent": "^2.0.0-beta.3"
+  }
+}
